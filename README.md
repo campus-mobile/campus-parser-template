@@ -16,6 +16,8 @@
 Для запуска на локальной машине требуется:
 
 1. Наличие [JDK 11](https://jdk.java.net) или выше
+2. Создать на github PAT токен с правами read:packages
+3. Добавить в gradle.properties параметр github.token= с токеном
 
 ## Development
 
@@ -32,6 +34,8 @@ Edition). В ней есть все интеграции с Kotlin и Gradle.
 Проект написан на языке [Kotlin](https://kotlinlang.org).
 
 Описание как делаются парсеры доступно в ридми [parser-sdk](https://github.com/campus-mobile/campus-parser-kotlin-sdk).
+
+
 
 Важно, что при изменении парсера, нужно проверять работу через тесты (примеры в `src/test`) - таким образом можно
 отладить работу парсера на разных расписаниях.
