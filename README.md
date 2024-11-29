@@ -16,6 +16,8 @@
 Для запуска на локальной машине требуется:
 
 1. Наличие [JDK 11](https://jdk.java.net) или выше
+2. Создать на github PAT токен с правами read:packages
+3. Добавить в gradle.properties параметр github.token= с токеном
 
 ## Development
 
