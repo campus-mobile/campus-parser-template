@@ -12,8 +12,6 @@
 6. Изменить в `build.gradle.kts` строку `campus-parser-template` на название репозитория
 7. Убрать `@Ignore` в `DumpParserTest`
 
-Если у вас не IDEA, то нужно включить assertion. Делается это добавлением флага `-ea` в VM options (флаги запуска java).
-
 ## Setup
 
 Для запуска на локальной машине требуется:

@@ -3,7 +3,7 @@
 kotlinVersion = "1.8.10"
 
 # campus
-parserSdkVersion = "0.7.2"
+parserSdkVersion = "0.7.4"
 
 [libraries]
 # campus
